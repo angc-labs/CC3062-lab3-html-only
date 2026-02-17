@@ -7,45 +7,70 @@
 </head>
 <body>
     <header>
-        <h1>Ruta 0</h1>
+        <h1>🧭 El emoji obtuvo el dinero 🔴</h1>
     </header>
-
-    <nav aria-label="Breadcrumb">
-        <ol>
-            <li><a href="../../index.html">Inicio</a></li>
-            <li><a href="../init.html">Laberinto</a></li>
-            <li>Ruta 0</li>
-        </ol>
-    </nav>
-
+    
     <main>
-        <article>
-            <figure>
-                <img src="/images/ruta-0.svg" alt="Mapa de la ruta 0 del laberinto" width="50%">
-                <figcaption>Ruta 0 del laberinto</figcaption>
-            </figure>
+        <figure>
+            <img src="../../images/ruta-0.svg" alt="Ruta 0" width="50%">
+            <figcaption>Ruta 0</figcaption>
+        </figure>
 
-            <section>
-                <p>El pasillo inicial se divide en tres caminos.</p>
-            </section>
-
-            <aside>
-                <p>Las bifurcaciones vuelven a conectarse más adelante.</p>
-            </aside>
-
-            <nav aria-label="Opciones">
-                <ul>
-                    <li><a href="../ruta-1/ruta-1.html">Tomar la ruta 1</a></li>
-                    <li><a href="../ruta-2/ruta-2.html">Tomar la ruta 2</a></li>
-                    <li><a href="../ruta-3/ruta-3.html">Tomar la ruta 3</a></li>
-                    <li><a href="../init.html">Regresar al mapa</a></li>
-                </ul>
-            </nav>
-        </article>
+        <p>
+            Progreso del laboratorio: 
+            <progress value="95" max="100">
+                95%
+            </progress> 
+            95%
+        </p>
+        
+        <form method="dialog">
+            <button onclick="document.getElementById('modal-ruta0').showModal()">Ver mensaje 💰</button>
+        </form>
+        
+        <dialog id="modal-ruta0">
+            <p>¡Felicidades! Has encontrado el camino correcto y has obtenido el dinero. ¿Quieres continuar en esta página?</p>
+            <form method="dialog">
+                <button>Sí, continuar</button>
+                <button>
+                    <a href="../../index.html">No, volver al inicio</a>
+                </button>
+            </form>
+        </dialog>
     </main>
-
+    
+    <nav>
+        <table border="1" width="100%" cellpadding="10" cellspacing="0">
+            <tr>
+                <td>
+                    <ol>
+                        <li><a href="../../index.html">Inicio</a></li>
+                        <li><a href="../init.html">Laberinto</a></li>
+                        <li><a href="../inicio/inicio.html">Inicio del laberinto</a></li>
+                        <li><a href="../ruta-2/ruta-2.html">Ruta 2</a></li>
+                        <li><a href="../ruta-3/ruta-3.html">Ruta 3</a></li>
+                        <li><a href="../ruta-4/ruta-4.html">Ruta 4</a></li>
+                        <li><a href="../ruta-5/ruta-5.html">Ruta 5</a></li>
+                        <li><a href="../ruta-7/ruta-7.html">Ruta 7</a></li>
+                        <li><a href="../ruta-9/ruta-9.html">Ruta 9</a></li>
+                        <li><a href="../ruta-101/ruta-101.html">Ruta 10</a></li>
+                        <li><a href="../ruta-111/ruta-111.html">Ruta 11</a></li>
+                        <li><a href="../ruta-121/ruta-121.html">Ruta 12</a></li>
+                        <li><a href="../ruta-131/ruta-131.html">Ruta 13</a></li>
+                        <li><a href="../ruta-141/ruta-141.html">Ruta 14</a></li>
+                        <li><a href="../ruta-15/ruta-15.html">Ruta 16</a></li>
+                    </ol>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="../../index.html">Inicio</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </nav>
     <footer>
-        <p>El laberinto apenas comienza.</p>
+        <p>Angel Chavez 24248</p>
     </footer>
 </body>
 </html>
